@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+body {
+    background-color:#2C241D;
+    color: #ffffff;
+}
+.orange{
+   color: #EF9339; 
+    font-family: "Abril Fatface";
+
+}
+.white{
+color: #ffffff;
+}
+.mainh{
+    font-size: 40px;
+    letter-spacing:2px;
+    padding-top:150px;
+    padding-left:40px;
+    font-family: "Abril Fatface";
+
+}
+.b{
+    padding-top:  25px;
+    padding-bottom: 25px;
+}
+p{
+    color: #ffffff;
+    padding-left:  40px;
+    padding-top:10px;
+}
+ .logo{
+    font-size: 30px;
+    color: #EF9339;
+    font-family: "Abril Fatface";
+ }
+.BGI{
+    background-image: url(assets/pictures/BGI.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    cursor: pointer; 
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 12px;}
+
+.navbar {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color:#000000 ;
+    font-weight: 100;
+    
+}
+
+.nav-links a:hover {
+    font-weight: 100;
+    color: #EF9339;
+}
+.button{
+    color: #EF9339;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding:7px 17px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #EF9339;
+    border-radius: 5px;
+}
+.sec{
+    text-align: center;
+    font-size:35px;
+    padding-top:25px;
+    font-family: "Abril Fatface";
+}
+
+.products {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 75px;
+}
+.card-up {
+    margin-top: -30px;
+}
+
+.card-down {
+    margin-top: 30px;
+}
+.card {
+    background: #ffffff;
+    width: 240px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.rating {
+    color: #ef9339;
+    font-size: 14px;
+    float: right;
+    margin-top: -20px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price {
+    font-weight: 700;
+    color: #555;
+}
+
+.cart-btn {
+    background: #2c241d;
+    color: #fff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cart-btn:hover {
+    background: #ef9339;
+}
+.card-img{
+    padding: 15px 15px 0 15px;
+}
+.video{
+width: 1200px;
+height: auto;
+} 
+.cont{
+    padding: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.com{
+    padding-right: 50px;
+    padding-right: 50px;
+}
+.quote{
+    color: #ef9339;
+    font-family: "Abril Fatface";
+    font-size:  100px;
+    line-height: 0.8px;
+    margin: 0;
+    padding-top: 50px;
+}
+.star{
+    padding-top: 15px;
+padding-left: 40px;
+font-size:25px;
+color: #EF9339;
+}
+.blog {
+    display: flex; 
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom:50px;
+    gap: 20px; 
+    background-color: #6C4625;
+}
+
+.blog-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 33%; 
+}
+
+.blog-item img {
+    width: 100%; 
+    height: auto;
+}
+
+.blog-item p {
+    color: #FFFFFF;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #2C241D; 
+    font-weight: bold;
+}
+.gallery{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+.subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subscription-banner {
+    background-color: #f3933d; 
+    padding: 40px 40px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.subscription-banner h2 {
+    font-family: "Abril Fatface";
+    color: #231f1e;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.subscribe-form {
+    background-color: white;
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form input {
+    flex-grow: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    outline: none;
+    color: #666;
+}
+
+.subscribe-form button {
+    background-color: #2d2926; 
+    color: white;
+    border: none;
+    padding: 0 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.subscribe-form button:hover {
+    background-color: #1a1715;
+}
+.footer-container {
+    padding: 40px 20px;
+    border-top: 1px solid #f3933d;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f3933d;
+    border-radius: 4px;
+    color: #f3933d;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #f3933d;
+    color: #231f1e;
+}
+.contact-form{
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.input-group {
+    margin-bottom: 30px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f3933d;
+    padding: 10px 0;
+    color: white;
+    outline: none;
+}
+.submit-btn {
+    background-color: #f3933d;
+    color: #231f1e;
+    border: none;
+    padding: 12px 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: opacity 0.3s;
+}
