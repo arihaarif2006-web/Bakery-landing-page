@@ -363,3 +363,132 @@ color: #EF9339;
     margin-top: 20px;
     transition: opacity 0.3s;
 }
+@media (max-width: 992px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mainh {
+        font-size: 32px;
+        padding-top: 120px;
+    }
+
+    .products {
+        gap: 25px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .comments {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .com {
+        padding: 20px;
+        max-width: 600px;
+    }
+
+    .blog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-item {
+        width: 80%;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+
+    body {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mainh {
+        font-size: 26px;
+        padding-top: 100px;
+        padding-left: 0;
+    }
+
+    p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .button {
+        margin-left: 0;
+    }
+
+    .sec {
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    .products {
+        padding-top: 40px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .comments {
+        padding-top: 20px;
+    }
+
+    .quote {
+        font-size: 70px;
+    }
+
+    .blog-item {
+        width: 90%;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gal img {
+        width: 90%;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form button {
+        padding: 15px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
