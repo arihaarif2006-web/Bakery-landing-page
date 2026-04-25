@@ -14,7 +14,7 @@ This project focuses on implementing a clean layout and basic responsiveness bas
 - CSS3
 
 ## Screenshot
-![landing page](assets\screenshots\landing_page.png)
+![landing page](assets/screenshots/landing_page.png)
 
 ## What I Learned
 - How to convert a Figma design into code
