@@ -175,7 +175,7 @@ h3 {
     padding: 15px 15px 0 15px;
 }
 .video{
-width: 1200px;
+width: 1120px;
 height: auto;
 } 
 .cont{
@@ -407,8 +407,6 @@ color: #EF9339;
         gap: 20px;
     }
 }
-
-/* Mobile phones */
 @media (max-width: 576px) {
 
     body {
